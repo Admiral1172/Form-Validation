@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--
+		Author: Patrick Ingram
+		Date: 10/15/2018
+		Assignment: Chapter 6 JavaScript Form Validation
+	-->
+	<meta charset='utf-8' />
+	<title>Form Validation</title>
+	<script src='script.js'></script>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<div>
+		<header>
+			<h1>Ingram's IT Survey</h1>
+		</header>
+	</div>
+	<article>
+		<form>
+		
+			Nickname:
+			<input type="text" name="firstname" id="first" required="required"><br>
+			<br>School:
+			<input type="text" name="school" id="school" required="required">
+			
+			<h2 id="flash">Career: </h2>
+			
+			<select name="IT" id="career" value="" required="required">
+				<option value="1">Select Career</option>
+				<option value="2">Programmer</option>
+				<option value="3">Software Engineer</option>
+				<option value="4">CyberSecurity</option>
+				<option value="5">Other</option>
+			</select>
+			
+			<h2 id="flashlang">Language: </h2>
+			
+			C++
+			<input type="checkbox" name="langname" id="cplus">
+			
+			C#
+			<input type="checkbox" name="langname" id="csharp">
+			
+			Java
+			<input type="checkbox" name="langname" id="java">
+			
+			Python
+			<input type="checkbox" name="langname" id="python">
+			
+			Other
+			<input type="checkbox" name="langname" id="other"><br><br>
+			
+			
+			<input type="submit" value="Submit">
+		
+		</form>
+	</article>
+	
+</body>
+
+</html>
