@@ -6,4 +6,4 @@
 
 - To get files simply hit Clone/Download
 - Once files are cloned or downloaded open them
-- open HTML in a browser or open script.js to view/edit.
+- Open HTML in a browser or open script.js to view/edit.
